@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Invoice 1 - PDF",
+    "file_path": "examples/invoice_extraction/invoice-001.pdf",
+    "expected_output": {
+      "invoice_number": "INV-2024-001",
+      "date": "2024-01-15",
+      "vendor": "Tech Solutions Inc",
+      "total": 2500.00
+    }
+  },
+  {
+    "name": "Invoice 2 - PDF",
+    "file_path": "examples/invoice_extraction/invoice-002.pdf",
+    "expected_output": {
+      "invoice_number": "INV-2024-002",
+      "date": "2024-02-01",
+      "vendor": "Office Supplies Co",
+      "total": 450.75
+    }
+  },
+  {
+    "name": "Invoice 3 - PDF",
+    "file_path": "examples/invoice_extraction/invoice-003.pdf",
+    "expected_output": {
+      "invoice_number": "INV-2024-003",
+      "date": "2024-02-15",
+      "vendor": "Cloud Services Ltd",
+      "total": 8900.00
+    }
+  }
+]

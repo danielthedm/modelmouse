@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Positive Review",
+    "input_text": "This product exceeded my expectations! The quality is outstanding and customer service was incredibly helpful. I highly recommend this to anyone looking for a reliable solution.",
+    "expected_output": "The review is strongly positive, praising product quality and customer service with enthusiastic language and a clear recommendation."
+  },
+  {
+    "name": "Negative Review",
+    "input_text": "Very disappointed with this purchase. The item arrived damaged and customer support was unresponsive. Would not recommend and requesting a refund.",
+    "expected_output": "The review is negative, citing product damage and poor customer service, expressing disappointment and warning others against purchase."
+  },
+  {
+    "name": "Mixed Review",
+    "input_text": "The product itself works well and meets my needs, but it took 3 weeks to arrive which was frustrating. For the price, I expected faster shipping.",
+    "expected_output": "The review is mixed - positive about product functionality but negative about shipping delays and value for money."
+  },
+  {
+    "name": "Neutral Review",
+    "input_text": "Product arrived on time and matches the description. It does what it's supposed to do. Nothing particularly good or bad to report.",
+    "expected_output": "The review is neutral and matter-of-fact, confirming the product meets basic expectations without strong positive or negative sentiment."
+  }
+]
