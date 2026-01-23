@@ -3,30 +3,108 @@
     "name": "Invoice 1 - PDF",
     "file_path": "examples/invoice_extraction/invoice-001.pdf",
     "expected_output": {
-      "invoice_number": "INV-2024-001",
+      "invoice_number": "2024-INV-0847",
       "date": "2024-01-15",
-      "vendor": "Tech Solutions Inc",
-      "total": 2500.00
+      "vendor": "Acme Dev Solutions",
+      "total": 12730.00,
+      "items": [
+        {
+          "description": "Frontend Development (React)",
+          "quantity": 40,
+          "unit_price": 125.0,
+          "amount": 5000.0
+        },
+        {
+          "description": "Backend API Development",
+          "quantity": 32,
+          "unit_price": 150.0,
+          "amount": 4800.0
+        },
+        {
+          "description": "Database Design & Optimization",
+          "quantity": 16,
+          "unit_price": 175.0,
+          "amount": 2800.0
+        },
+        {
+          "description": "Code Review & Documentation",
+          "quantity": 8,
+          "unit_price": 100.0,
+          "amount": 800.0
+        }
+      ]
     }
   },
   {
     "name": "Invoice 2 - PDF",
     "file_path": "examples/invoice_extraction/invoice-002.pdf",
     "expected_output": {
-      "invoice_number": "INV-2024-002",
-      "date": "2024-02-01",
-      "vendor": "Office Supplies Co",
-      "total": 450.75
+      "invoice_number": "TEC-2024-0293",
+      "date": "2024-02-20",
+      "vendor": "TechStart Inc.",
+      "total": 6750.00,
+      "items": [
+        {
+          "description": "AWS Environment Setup",
+          "quantity": 1,
+          "unit_price": 2500.0,
+          "amount": 2500.0
+        },
+        {
+          "description": "Kubernetes Cluster Configuration",
+          "quantity": 1,
+          "unit_price": 1800.0,
+          "amount": 1800.0
+        },
+        {
+          "description": "CI/CD Pipeline Implementation",
+          "quantity": 1,
+          "unit_price": 1200.0,
+          "amount": 1200.0
+        },
+        {
+          "description": "Security Audit & Compliance Review",
+          "quantity": 1,
+          "unit_price": 750.0,
+          "amount": 750.0
+        }
+      ]
     }
   },
   {
     "name": "Invoice 3 - PDF",
     "file_path": "examples/invoice_extraction/invoice-003.pdf",
     "expected_output": {
-      "invoice_number": "INV-2024-003",
-      "date": "2024-02-15",
-      "vendor": "Cloud Services Ltd",
-      "total": 8900.00
+      "invoice_number": "GRL-2024-0312-REV2",
+      "date": "2024-03-15",
+      "vendor": "Global Retail Ltd.",
+      "total": 1482.50,
+      "items": [
+        {
+          "description": "E-commerce Platform Annual License",
+          "quantity": 1,
+          "unit_price": 1500.0,
+          "amount": 1500.0
+        },
+        {
+          "description": "Premium Support Package (12 months)",
+          "quantity": 1,
+          "unit_price": 600.0,
+          "amount": 600.0
+        },
+        {
+          "description": "Custom Integration Module",
+          "quantity": 1,
+          "unit_price": 450.0,
+          "amount": 450.0
+        },
+        {
+          "description": "Training Sessions (3x remote)",
+          "quantity": 1,
+          "unit_price": 375.0,
+          "amount": 375.0
+        }
+      ]
     }
   }
 ]
